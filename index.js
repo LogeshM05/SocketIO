@@ -58,7 +58,7 @@ const port = process.env.PORT || 3000;
 const hostname = "s1-dtlk.onrender.com";
 tls.DEFAULT_MAX_VERSION = "TLSv1.3";
 //server.listen(port, () => {
-server.listen(port, hostname, () => {
+server.listen(port () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
 var allUsers = new Map();
