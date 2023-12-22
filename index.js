@@ -55,7 +55,7 @@ const io = require("socket.io")(server, {
 });
 const port = process.env.PORT || 3000;
 // const hostname = '10.200.1.50';
-const hostname = "172.31.3.47";
+const hostname = "s1-dtlk.onrender.com";
 tls.DEFAULT_MAX_VERSION = "TLSv1.3";
 //server.listen(port, () => {
 server.listen(port, hostname, () => {
